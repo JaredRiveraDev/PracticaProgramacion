@@ -8,8 +8,59 @@
     <link rel="stylesheet" href="css/css1.css" />
   </head>
   <body>
+    <form action="index.html" method="get"></form>
     <h1>Mi primer heading</h1>
     <h2>mi segundo heading</h2>
     <p>esto es un parrafo</p>
+    <!-- esto es un comentario -->
+    <a href="https://www.google.com">texto con link</a>
+    <br />
+    <!-- cuando cambiamos el width, el atlo se acomoda automaticamente -->
+    <img
+      src="https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055_1280.jpg"
+      width="400"
+      alt=""
+    />
+    <br>
+    <label for="nombre">Nombre:</label>
+      <input id="nombre" name="nombre" placeholder="Ej. Jared" type="text" />
+      <br>
+      <label for="apellido">Apellido:</label>
+      <input id="apellido" name="apellido" placeholder="Ej. Rivera" value="Valor por defecto" type="text" />
+      <br>
+      <label for="comentario">comentarios:</label><br>
+      <textarea name="comentario" id="comentario" cols="30" rows="5" placeholder="ingrese un comentario"></textarea>
+      <br>
+      <input type="submit">
+      <button type="submit"><img src="https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055_1280.jpg" width="80"> Boton con imagen</button>
+      <ul>
+        <li>lista</li>
+        <li>no</li>
+        <li>ordenada</li>
+      </ul>
+      <ol>
+        <li>lista</li>
+        <li>ordenada</li>
+        <li>
+        <ol><li>lista</li> 
+        <li>anidada</li></ol>
+        </li>
+      </ol>
+      <!-- tabla -->
+      <table style="border: 1px solid black;">
+        <tr>
+          <th>producto</th>
+          <th>precio</th>
+        </tr>
+        <tr>
+          <td>Computadora</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>Lap</td>
+          <td>$300</td>
+        </tr>
+      </table>
+    </form>
   </body>
 </html>
